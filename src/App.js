@@ -1,5 +1,5 @@
 import "./App.css";
-import Profile from "./components/profile";
+import Profile from "./components/Profile";
 import user from "./user.json";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <Profile
         name={user.name}
         tag={user.tag}
-        src={user.avatar}
+        avatar={user.avatar}
         followers={user.stats.followers}
         views={user.stats.views}
         likes={user.stats.likes}
