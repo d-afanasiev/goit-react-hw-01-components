@@ -1,0 +1,45 @@
+.item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.statusGreen {
+  background-color: green;
+}
+
+.statusRed {
+  background-color: red;
+}
+
+.itemGreen {
+  box-shadow: 2px 2px 5px green;
+}
+
+.itemRed {
+  box-shadow: 2px 2px 5px red;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+}
